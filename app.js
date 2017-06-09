@@ -9,11 +9,13 @@ For TODO item, be sure to change it to say DONE when you have successfully compl
 
 // TODO: Write your code here
 function sum(a,b){ //eslint-disable-line
-
-}
+  var math = a + b;
+  console.log('The sum of ' + a + ' and ' + b + ' is ' + math + '.');
+  return [math, 'The sum of ' + a + ' and ' + b + ' is ' + math + '.'];
+};
 
 // TODO: Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -86,4 +88,3 @@ function multiplyArray(testArray){ //eslint-disable-line
 // testMultiplyArray(2,3,4);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. You're done! Submit the link to the repo following the instructions in Canvas.
-Contact GitHub API Training Shop Blog About
